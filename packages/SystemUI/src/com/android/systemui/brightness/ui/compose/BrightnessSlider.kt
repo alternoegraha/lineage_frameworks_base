@@ -460,7 +460,7 @@ private fun drawAutoBrightnessButton(
 
     Box(
         modifier = Modifier
-            .size(45.dp)
+            .size(40.dp)
             .clip(RoundedCornerShape(animatedCornerRadius))
             .background(backgroundColor)
             .clickable(
