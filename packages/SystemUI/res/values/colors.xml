@@ -288,4 +288,10 @@
     <color name="pin_bouncer_action_button_bg">@androidprv:color/surface_effect_0</color>
     <!-- Bouncer background when blur is not enabled.   -->
     <color name="bouncer_fallback_bg">@android:color/system_accent2_200</color>
+
+    <!-- Smartspace -->
+    <color name="ambient_text_shadow_color">#40000000</color>
+    <color name="key_text_shadow_color">#89000000</color>
+    <color name="smartspace_button_background">@android:color/system_accent2_200</color>
+    <color name="smartspace_button_text">@android:color/system_accent2_700</color>
 </resources>
