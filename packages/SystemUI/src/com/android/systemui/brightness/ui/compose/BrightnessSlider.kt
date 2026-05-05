@@ -428,9 +428,9 @@ private fun drawAutoBrightnessButton(
     val coroutineScope = rememberCoroutineScope()
     val animatedCornerRadius by animateDpAsState(
         targetValue = if (autoMode) {
-            SliderTrackRoundedCorner
-        } else {
             22.5.dp
+        } else {
+            SliderTrackRoundedCorner
         }
     )
     val backgroundColor by animateColorAsState(
@@ -460,7 +460,7 @@ private fun drawAutoBrightnessButton(
 
     Box(
         modifier = Modifier
-            .size(45.dp)
+            .size(40.dp)
             .clip(RoundedCornerShape(animatedCornerRadius))
             .background(backgroundColor)
             .clickable(
